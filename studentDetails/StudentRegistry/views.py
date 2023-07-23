@@ -4,10 +4,6 @@ from django.shortcuts import redirect, render
 
 # Create your views here.
 
-def homeView(request):
-    return render(request,'index.html')
-
-
 from django.views.generic import ListView
 from StudentRegistry.models import StudentData
 
